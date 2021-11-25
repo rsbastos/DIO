@@ -10,8 +10,16 @@ public class AppController {
     @Value("${app.message}")
     private String appMessage;
 
+    @Value("${ENV_DB_URL:NENHUMA}") //valor default caso não seja passada nenhuma variável
+    private String dbEnvironmentVariable;
+
     @GetMapping("/")
     public String getAppMessage() {
         return appMessage;
+    }
+
+    @GetMapping("/envVariable")
+    public String getEnvironmentVariable() {
+        return "A seguinte variável de ambiente foi passada: " + dbEnvironmentVariable;
     }
 }
