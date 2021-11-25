@@ -12,7 +12,7 @@
 	<artifactId>utilizandoBeans</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>utilizandoBeans</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Projeto de livraria para implementação de Beans</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
