@@ -1,4 +1,4 @@
-package one.digitalinnovation.collections_streams;
+package one.digitalinnovation.Collections_Streams;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
