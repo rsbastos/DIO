@@ -11,7 +11,7 @@ public class ExemploHashSet {
         Set<Double> notasAlunos = new HashSet<>();
 
         // adiciona as notas no set
-        notasAlunos.add(5.8);
+        notasAlunos.add(5.9);
         notasAlunos.add(9.3);
         notasAlunos.add(6.5);
         notasAlunos.add(10.0);
