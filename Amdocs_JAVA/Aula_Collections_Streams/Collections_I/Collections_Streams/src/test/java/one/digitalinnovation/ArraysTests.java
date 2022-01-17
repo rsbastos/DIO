@@ -1,10 +1,10 @@
-package one.digitalinnovation.Collections_Streams;
+package one.digitalinnovation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CollectionsStreamsApplicationTests {
+class ArraysTests {
 
 	@Test
 	void contextLoads() {

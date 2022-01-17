@@ -1,13 +1,12 @@
-package one.digitalinnovation.Collections_Streams;
+package one.digitalinnovation;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 @SpringBootApplication
-public class CollectionsStreamsApplication {
+public class arrays {
 
 	public static void main(String[] args) {
 
@@ -15,7 +14,7 @@ public class CollectionsStreamsApplication {
 
 		// Primeiro, instanciar uma lista
 
-		List<String> nomes = new ArrayList<>();
+		java.util.List<String> nomes = new ArrayList<>();
 
 		// 1 - Adicione 5 nomes: Juliano, Pedro, Carlos, Larissa e João
 
@@ -58,7 +57,7 @@ public class CollectionsStreamsApplication {
 
 		// 8 - Crie nova lista com nomes Ismael e Rodrigo
 
-		List<String> nomes2 = new ArrayList<String>();
+		java.util.List<String> nomes2 = new ArrayList<String>();
 
 		nomes2.add("Ismael");
 		nomes2.add("Rodrigo");
