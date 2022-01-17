@@ -1,4 +1,4 @@
-package one.digitalinnovation;
+package one.digitalinnovation.list;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 @SpringBootApplication
-public class arrays {
+public class Arrays {
 
 	public static void main(String[] args) {
 
