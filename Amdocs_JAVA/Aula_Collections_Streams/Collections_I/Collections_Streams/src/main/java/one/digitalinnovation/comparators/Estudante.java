@@ -24,6 +24,6 @@ public class Estudante implements Comparable<Estudante> {
     }
 
     public int  compareTo(Estudante o) {
-        return this.getIdade() - o.getIdade()
+        return this.getIdade() - o.getIdade();
     }
 }
