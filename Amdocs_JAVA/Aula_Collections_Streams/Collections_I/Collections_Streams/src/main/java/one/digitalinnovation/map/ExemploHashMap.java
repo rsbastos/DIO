@@ -50,5 +50,19 @@ public class ExemploHashMap {
         // Retorna o tamanho do mapa
         System.out.println("Quantidade de seleções: " + campeoesMundiaisFifa.size());
 
+        System.out.println("Mapa atualizado: " + campeoesMundiaisFifa);
+
+        // Navega nos registros do mapa
+        for (Map.Entry<String, Integer> entry : campeoesMundiaisFifa.entrySet()) {
+            System.out.println("Navegação pelos itens do mapa utilizando forEach - entry.getKey/entry.getValue: " +
+                    entry.getKey() + " -- " + entry.getValue());
+        }
+
+        // Navega nos registros do mapa
+        for (String key : campeoesMundiaisFifa.keySet()) {
+            System.out.println("Navegação pelos itens do mapa utilizando forEach - .get: " +
+                    key + " -- " + campeoesMundiaisFifa.get(key));
+        }
+
     }
 }
