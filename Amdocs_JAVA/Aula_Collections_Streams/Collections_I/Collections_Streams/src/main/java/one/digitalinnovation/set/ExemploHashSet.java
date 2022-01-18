@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+// NÃO TEM UMA ORDEM
+
 public class ExemploHashSet {
 
     public static void main(String[] args) {
