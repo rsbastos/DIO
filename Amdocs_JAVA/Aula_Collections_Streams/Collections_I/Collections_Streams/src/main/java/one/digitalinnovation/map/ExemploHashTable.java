@@ -8,7 +8,7 @@ public class ExemploHashTable {
 
         Hashtable<String, Integer> estudantes = new Hashtable<>();
 
-        estudantes.put("Carlos", 21);
+        estudantes.put("Carlos", 22);
         estudantes.put("Mariana", 33);
         estudantes.put("Rafaela", 18);
         estudantes.put("Pedro", 44);
