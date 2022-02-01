@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.rsb.desafio-dio-banco' is invalid and this project uses 'com.rsb.desafiodiobanco' instead.
+* The original package name 'com.rsb.desafio-dio-banco' is invalid and this project uses 'com.rsb.desafio_dio_banco' instead.
 
 # Getting Started
 
