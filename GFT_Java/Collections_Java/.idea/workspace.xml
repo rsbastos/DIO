@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6edb16-d13e-4006-b836-91cb9bcbd35f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/rsb/collections/list/ExercicioListTemperaturas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/rsb/collections/list/ExercicioListCrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rsb/collections/list/ExercicioList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +30,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../DIO - ESTUDOS/Collections em Java/Aula04_STREAM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../DIO - ESTUDOS/Collections em Java/Aula01_LIST" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExercicioListCrime">
+    <configuration name="ExercicioListCrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.rsb.collections.list.ExercicioListCrime" />
+      <module name="collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rsb.collections.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExercicioListTemperaturas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.rsb.collections.list.ExercicioListTemperaturas" />
       <module name="collections" />
@@ -51,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExercicioListCrime" />
         <item itemvalue="Application.ExercicioListTemperaturas" />
       </list>
     </recent_temporary>
