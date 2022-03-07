@@ -27,26 +27,25 @@
   <h3>English</h3>
   <div>
     <h1>
-    Bem-vindo Mundo!
+    Welcome World!
     </h1>
-    <p>Exemplo de um programa jQuery</p>     
+    <p>Example of a jQuery program</p>     
   </div>
   <h3>Deutsch</h3>
   <div>
     <h1>
-    Bem-vindo Mundo!
+    Willkommen Welt!
     </h1>
-    <p>Exemplo de um programa jQuery</p>     
+    <p>Beispiel für ein jQuery-Programm</p>     
   </div>
   <h3>Français</h3>
   <div>
     <h1>
-    Bem-vindo Mundo!
+    Bienvenue Monde!
     </h1>
-    <p>Exemplo de um programa jQuery</p>     
+    <p>Exemple de programme jQuery</p>     
   </div>
-</div>
- 
+</div> 
  
 </body>
 </html>
