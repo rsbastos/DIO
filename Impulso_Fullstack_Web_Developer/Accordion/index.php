@@ -28,7 +28,7 @@
         </div>
       <h3>Deutsch</h3>
         <div>
-        <h1>Willkkomen Welt!</h1>
+        <h1>Willkommen Welt!</h1>
         <p>Beispiel für ein PHP-Programm</p>     
         </div>
       <h3>Français</h3>
