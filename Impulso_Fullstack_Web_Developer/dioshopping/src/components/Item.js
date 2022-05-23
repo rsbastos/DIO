@@ -1,9 +1,15 @@
 import React from 'react';
+import { ListItem, ListItemText } from '@material-ui/core';
 
-const Header = () => {
+const Item = ({ name, details }) => {
     return(
-        <h1>Header</h1>
+        <ListItem>
+            <ListItemText
+                primary={name}
+                secondary={details}     
+            />                           
+        </ListItem>
     )
 }
 
-export default Header;
+export default Item;
