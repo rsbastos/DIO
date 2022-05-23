@@ -1,6 +1,7 @@
 import React from 'react';
-import { Paper, Grid, Typography, Button, List, makeStyles } from '@material-ui/core';
+import { Paper, Grid, Typography, List, makeStyles } from '@material-ui/core';
 import Item from '../components/Item';
+import Card from '../components/Card';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -39,71 +40,13 @@ const HomePage = () => {
                     </List>
                 </Paper>
             </Grid>
-        <Grid container xs={9} spacing={3} className={classes.root}>
-            <Grid item xs="3">
-                <Paper className={classes.paper}>
-                    <Grid container direction='column'>
-                        <Grid item>
-                            <img width="140px" src="./images/produtos/fla.jpg" alt="Flamengo 2020"/>
-                            <Typography variant='h6'>
-                                Produto
-                            </Typography>
-                            <Typography variant='subtitled1'>
-                                 R$ 99.00
-                            </Typography>
-                        </Grid>
-                        <Button variant="contained">Adicionar</Button>    
-                    </Grid>
-                </Paper>
-            </Grid>
-            <Grid item xs={3}>
-                <Paper className={classes.paper}>
-                    <Grid container direction='column'>
-                        <Grid item>
-                            <img width="140px" src="./images/produtos/fla.jpg" alt="Flamengo 2020"/>
-                            <Typography variant='h6'>
-                                Produto
-                            </Typography>
-                            <Typography variant='subtitled1'>
-                                R$ 99.00
-                            </Typography>
-                        </Grid>
-                        <Button variant="contained">Adicionar</Button>    
-                    </Grid>
-                </Paper>
-            </Grid>
-            <Grid item xs={3}>
-                <Paper className={classes.paper}>
-                    <Grid container direction='column'>
-                        <Grid item>
-                            <img width="140px" src="./images/produtos/fla.jpg" alt="Flamengo 2020"/>
-                            <Typography variant='h6'>
-                                Produto
-                            </Typography>
-                            <Typography variant='subtitled1'>
-                                R$ 99.00
-                            </Typography>
-                        </Grid>
-                        <Button variant="contained">Adicionar</Button>    
-                    </Grid>
-                </Paper>
-            </Grid>
-            <Grid item xs={3}>
-                <Paper className={classes.paper}>
-                    <Grid container direction='column'>
-                        <Grid item>
-                            <img width="140px" src="./images/produtos/fla.jpg" alt="Flamengo 2020"/>
-                            <Typography variant='h6'>
-                                Produto
-                            </Typography>
-                            <Typography variant='subtitled1'>
-                                R$ 99.00
-                            </Typography>
-                        </Grid>
-                        <Button variant="contained">Adicionar</Button>    
-                     </Grid>
-                </Paper>
-                    </Grid>
+            <Grid container xs={9} spacing={3} className={classes.root}>
+                <Card name="Flamengo 2020" price="99.00" image="./images/produtos/fla.jpg">
+                    Flamengo
+                </Card>
+                <Card name="Arsenal 2020" price="99.00" image="./images/produtos/arsenal.jpg">
+                    Arsenal
+                </Card>           
             </Grid>
         </Grid> 
     )
