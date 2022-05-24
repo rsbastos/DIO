@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { Paper, Grid, Typography, List, makeStyles } from '@material-ui/core';
 import Item from '../components/Item';
 import Card from '../components/Card';
@@ -15,7 +15,8 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-const HomePage = ({ products }) => {
+const HomePage = () => {
+    const products = useSelector(state => state.products);
     const classes = useStyles();
 
     const categorys = products.map(
@@ -83,8 +84,4 @@ const HomePage = ({ products }) => {
     )
 }
 
-const mapStateToProps = state => ({
-    products: state.products    
-})
-
-export default connect(mapStateToProps)(HomePage);
+export default HomePage;
