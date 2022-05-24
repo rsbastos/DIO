@@ -33,6 +33,17 @@ const HomePage = ({ products }) => {
             })
             .map(JSON.parse)
 
+    const arrayCategory = categorys.map(category => category.name)
+    let count = { };
+
+    for(let i = 0; i < arrayCategory.length; i++){
+        {
+            let key = arrayCategory[i];
+            count[key] = (count[key] ? count[key] + 1 : 1)
+        }
+    }
+
+
     return(
         <Grid container spacing={3} className={classes.root}>
             <Grid item xs={3}>
@@ -47,7 +58,7 @@ const HomePage = ({ products }) => {
                                     <Item
                                         key = {category.id}
                                         name= {category.name}
-                                        //details="3"
+                                        details={count[category.name]}
                                     />
                                 )
                             }
