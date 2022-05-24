@@ -18,6 +18,15 @@ const useStyles = makeStyles((theme) => ({
 const HomePage = ({ products }) => {
     const classes = useStyles();
 
+    const categorys = products.map(
+        category => {
+            const container = { }; 
+            container['id'] = category.id_categorys;
+            container['name'] = category.name_categorys;
+            return container;   
+        }
+    )
+
     return(
         <Grid container spacing={3} className={classes.root}>
             <Grid item xs={3}>
@@ -26,18 +35,18 @@ const HomePage = ({ products }) => {
                         Categorias
                     </Typography>
                     <List>
-                        <Item
-                            name="Times Nacionais"
-                            details="3"
-                        />
-                        <Item
-                            name="Times Internacionais"
-                            details="4"
-                        />
-                        <Item
-                            name="Times Históricos"
-                            details="5"
-                        />                           
+                        {categorys.map(
+                            category => {
+                                return (
+                                    <Item
+                                        key = {category.id}
+                                        name= {category.name}
+                                        //details="3"
+                                    />
+                                )
+                            }
+                        )}
+                                                                        
                     </List>
                 </Paper>
             </Grid>
