@@ -27,6 +27,12 @@ const HomePage = ({ products }) => {
         }
     )
 
+    const category = categorys.map(JSON.stringify)
+            .filter(function(item, index, arr){
+                return arr.indexOf(item, index + 1) === -1;
+            })
+            .map(JSON.parse)
+
     return(
         <Grid container spacing={3} className={classes.root}>
             <Grid item xs={3}>
@@ -35,7 +41,7 @@ const HomePage = ({ products }) => {
                         Categorias
                     </Typography>
                     <List>
-                        {categorys.map(
+                        {category.map(
                             category => {
                                 return (
                                     <Item
