@@ -51,7 +51,7 @@ const Cart = () => {
                                                 </span></th>
                                                 <th>R$ {item.price.toFixed(2)}</th>
                                                 <th><button onClick={() => dispatch(cartActions.AddItem(cart, item))} className="badge badge-pill bg-primary"><i className="fas fa-plus"></i></button></th>
-                                                <th><button className="badge badge-pill bg-danger"><i className="fas fa-minus"></i></button></th>
+                                                <th><button onClick={() => dispatch(cartActions.RemoveItem(cart, item))} className="badge badge-pill bg-danger"><i className="fas fa-minus"></i></button></th>
                                                 <th>R$ {(item.price * item.quantity).toFixed(2)}</th>
                                             </tr>
                                         )

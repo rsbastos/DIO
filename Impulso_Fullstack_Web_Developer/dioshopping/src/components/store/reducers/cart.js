@@ -47,6 +47,16 @@ export default function cart(state = INITIAL_STATE, action){
                 ...state,
                 value: ( action.cart.value + 1 )
             } 
+        case 'REMOVE_ITEM':
+            if(action.product.quantity > 1){
+                action.product.quantity--
+                return{
+                    ...state,
+                    value: ( action.cart.value -1 )
+                }
+            } else {
+                return state;
+            }
         default:
             return state;               
     }
