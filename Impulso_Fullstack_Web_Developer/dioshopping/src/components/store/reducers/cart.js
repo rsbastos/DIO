@@ -7,7 +7,8 @@ const INITIAL_STATE = {
 }
 
 export default function cart(state = INITIAL_STATE, action){
-    if(action.type === 'ADD_TO_CART') {
+    switch(action.type){
+        case 'ADD_TO_CART':
         if(state.value === 0){
             let item = {
                 id: action.product.id_product,
@@ -35,13 +36,22 @@ export default function cart(state = INITIAL_STATE, action){
                 }
                 state.Cart.push(item)     
             } 
-        }
-        
-        
+        }  
         return {
             ...state,
             value: ( state.value + 1)
-        }        
+        }
+        case 'ADD_ITEM':
+            action.product.quantity++
+            return{
+                ...state,
+                value: ( action.cart.value + 1 )
+            } 
+        default:
+            return state;               
     }
     return state
 }
+    
+    
+        
