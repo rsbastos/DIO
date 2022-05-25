@@ -44,7 +44,7 @@ const Cart = () => {
                                     {cart.Cart.map( item => {
                                         return(
                                             <tr hey={item.id}>
-                                                <th><button className="badge bg-danger"><i className="fas fa-window-close"></i></button></th>
+                                                <th><button onClick={()=>dispatch(cartActions.DeleteItem(cart, item))} className="badge bg-danger"><i className="fas fa-window-close"></i></button></th>
                                                 <th><img className="img-fluid img-thumbnail" src={item.image} alt={item.name} width="50px"/></th>
                                                 <th><span className="badge badge-pill bg-warning">
                                                     {item.quantity}    

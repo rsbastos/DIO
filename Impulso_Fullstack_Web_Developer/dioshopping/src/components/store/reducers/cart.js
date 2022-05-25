@@ -57,6 +57,14 @@ export default function cart(state = INITIAL_STATE, action){
             } else {
                 return state;
             }
+        case 'DELETE_ITEM':
+            return{
+                ...state,
+                value: (action.cart.value - action.product.quantity),
+                Cart: state.Cart.filter(item => {
+                    return item.id !== action.product.id
+                }) 
+            }
         default:
             return state;               
     }
