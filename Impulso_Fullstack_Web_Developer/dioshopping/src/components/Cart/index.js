@@ -3,8 +3,20 @@ import { useSelector, useDispatch } from 'react-redux';
 import cartActions from '../store/actions/cart';
 
 const Cart = () => {
-    const cart = useSelector(state => state.cart)
-    const dispatch = useDispatch()
+    const cart = useSelector(state => state.cart)    
+    const dispatch = useDispatch();
+
+    let totalPrice = 0; 
+
+    for(let i = 0; i < cart.Cart.length; i++) {
+        totalPrice += (cart.Cart[i].price * cart.Cart[i].quantity);
+    }
+
+    if(cart.value > 0){
+        localStorage.setItem('dioshopping: cart', JSON.stringify(cart))
+    }
+
+    localStorage.clear();
 
     return(
         <>
@@ -60,7 +72,7 @@ const Cart = () => {
                                     <tr>
                                         <th colSpan="2" scope="col">Total</th>
                                         <th colSpan="3">{cart.value} items</th>
-                                        <th colSpan="2">R$ 200.00</th>
+                                        <th colSpan="2">R$ {totalPrice.toFixed(2)}</th>
                                     </tr>
                                 </tbody>
                             </table>
