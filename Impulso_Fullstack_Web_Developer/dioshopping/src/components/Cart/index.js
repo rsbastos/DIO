@@ -14,9 +14,7 @@ const Cart = () => {
 
     if(cart.value > 0){
         localStorage.setItem('dioshopping: cart', JSON.stringify(cart))
-    }
-
-    localStorage.clear();
+    }   
 
     return(
         <>
