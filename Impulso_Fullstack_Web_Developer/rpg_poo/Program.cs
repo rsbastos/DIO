@@ -7,11 +7,8 @@ namespace rpg_poo
     {
         static void Main(string[] args)
         {
-            Arus hero = new Arus();  
-            hero.Name = "Arus";
-            hero.Level = 2;
-            hero.HeroType = "Knight";
-
+            Arus hero = new Arus("Arus", 23, "Knight");  
+          
             Console.Write("");
         }
     }
