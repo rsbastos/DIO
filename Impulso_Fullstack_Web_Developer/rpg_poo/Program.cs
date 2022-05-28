@@ -6,7 +6,15 @@ namespace rpg_poo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string nome = "Arus";
+            int level = 12;
+            string tipoHeroi = "Guerreiro";
+
+            string nome2 = "Wedge";
+            int level2 = 20;
+            string tipoHeroi2 = "Ninja";
+
+            Console.Write(nome + " " + level + " " + tipoHeroi);
         }
     }
 }
