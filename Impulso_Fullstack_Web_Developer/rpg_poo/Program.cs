@@ -1,4 +1,5 @@
 ﻿using System;
+using rpg_poo.src.Entities;
 
 namespace rpg_poo
 {
@@ -6,15 +7,9 @@ namespace rpg_poo
     {
         static void Main(string[] args)
         {
-            string nome = "Arus";
-            int level = 12;
-            string tipoHeroi = "Guerreiro";
+            Arus hero = new Arus();  
 
-            string nome2 = "Wedge";
-            int level2 = 20;
-            string tipoHeroi2 = "Ninja";
-
-            Console.Write(nome + " " + level + " " + tipoHeroi);
+            Console.Write("");
         }
     }
 }
