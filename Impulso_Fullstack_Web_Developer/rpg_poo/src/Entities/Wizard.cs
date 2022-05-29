@@ -14,7 +14,13 @@ namespace rpg_poo.src.Entities
         }     
 
         public string Attack(int Bonus){
-            return this.Name + " Lançou Magia com bonus de ataque de " + Bonus; 
+
+            if (Bonus > 6){
+                return this.Name + " Lançou Magia super efetiva com bonus de " + Bonus;
+            } else {
+                return this.Name + " Lançou uma magia fraca com bonus de " + Bonus;
+            }
+             
         }   
     }
 }
