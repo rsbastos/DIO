@@ -7,7 +7,8 @@ namespace rpg_poo
     {
         static void Main(string[] args)
         {
-            Arus hero = new Arus("Arus", 23, "Knight");  
+            Hero hero = new Hero("Arus", 23, "Knight");  
+            Hero wizard = new Hero("Jenica", 23, "White Wizard");
           
             Console.Write(hero);
         }
