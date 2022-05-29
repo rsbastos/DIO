@@ -22,7 +22,7 @@ namespace rpg_poo.src.Entities
             return this.Name + " " + this.Level + " " + this.HeroType;
         }
 
-        public string Attack(){
+        public virtual string Attack(){
             return this.Name + " Atacou com sua espada";
         }
 
