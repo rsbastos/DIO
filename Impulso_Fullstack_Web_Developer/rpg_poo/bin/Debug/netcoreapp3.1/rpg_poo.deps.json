@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "rpg_poo/1.0.0": {
+        "runtime": {
+          "rpg_poo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rpg_poo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

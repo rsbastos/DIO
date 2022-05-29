@@ -9,7 +9,7 @@ namespace rpg_poo
         {
             Arus hero = new Arus("Arus", 23, "Knight");  
           
-            Console.Write("");
+            Console.Write(hero);
         }
     }
 }

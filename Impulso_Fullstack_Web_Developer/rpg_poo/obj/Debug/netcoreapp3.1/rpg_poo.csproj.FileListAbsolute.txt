@@ -1,0 +1,13 @@
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\bin\Debug\netcoreapp3.1\rpg_poo.exe
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\bin\Debug\netcoreapp3.1\rpg_poo.deps.json
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\bin\Debug\netcoreapp3.1\rpg_poo.runtimeconfig.json
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\bin\Debug\netcoreapp3.1\rpg_poo.runtimeconfig.dev.json
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\bin\Debug\netcoreapp3.1\rpg_poo.dll
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\bin\Debug\netcoreapp3.1\rpg_poo.pdb
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\obj\Debug\netcoreapp3.1\rpg_poo.csprojAssemblyReference.cache
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\obj\Debug\netcoreapp3.1\rpg_poo.AssemblyInfoInputs.cache
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\obj\Debug\netcoreapp3.1\rpg_poo.AssemblyInfo.cs
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\obj\Debug\netcoreapp3.1\rpg_poo.csproj.CoreCompileInputs.cache
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\obj\Debug\netcoreapp3.1\rpg_poo.dll
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\obj\Debug\netcoreapp3.1\rpg_poo.pdb
+C:\Users\Tina\IdeaProjects\Workspace\DIO\Impulso_Fullstack_Web_Developer\rpg_poo\obj\Debug\netcoreapp3.1\rpg_poo.genruntimeconfig.cache

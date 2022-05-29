@@ -14,6 +14,10 @@ namespace rpg_poo.src.Entities
 
         public string HeroType;
 
+        public override string ToString() {
+            return this.Name + " " + this.Level + " " + this.HeroType;
+        }
+
         
     }
 }
