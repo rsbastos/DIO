@@ -11,6 +11,10 @@ namespace rpg_poo.src.Entities
 
         public override string Attack(){
             return this.Name + " Lançou magia";
-        }        
+        }     
+
+        public string Attack(int Bonus){
+            return this.Name + " Lançou Magia com bonus de ataque de " + Bonus; 
+        }   
     }
 }
