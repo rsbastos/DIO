@@ -46,6 +46,16 @@ namespace DIO.Series
             Console.ReadLine();
         }
 
+        private static void VisualizarSerie()
+        {
+            Console.Write("Digite o id da Série: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            var serie = repositorio.RetornaPorId(indiceSerie);
+
+            Console.WriteLine(serie);
+        }
+
         private static void ExcluirSerie()
         {
             Console.Write("Digite o id da Série: ");
@@ -98,7 +108,9 @@ namespace DIO.Series
 
             foreach (var serie in lista)
             {
-                Console.WriteLine("#ID {0}: - {1}", serie.retornaId(), serie.retornaTitulo()); 
+                var excluido = serie.retornaExcluido();
+               
+                Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "**Excluido**" : ""));                 
             }
         }
 
@@ -138,7 +150,7 @@ namespace DIO.Series
             Console.WriteLine("DIO Séries!!!");
             Console.WriteLine("Informe a Opção Desejada");
            
-            Console.WriteLine("1 - Litar Séries");
+            Console.WriteLine("1 - Listar Séries");
             Console.WriteLine("2 - Inserir Nova Série");
             Console.WriteLine("3 - Atualizar Série");
             Console.WriteLine("4 - Excluir Série");
