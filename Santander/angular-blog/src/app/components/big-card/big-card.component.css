@@ -15,8 +15,17 @@
     margin-top: 10px;
     font-size: 20px;
 }
-    
-.big-card__description > p {
+
+.big-card__description {
     margin-top: 10px;
+}
+
+.big-card__description > p {
+  
     color: gray;
+}
+
+.big-card__photo > img {
+    width: 100%;
+    min-width: 400px;
 }
