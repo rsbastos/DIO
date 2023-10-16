@@ -1,23 +1,18 @@
-<div class="container__big-card">
-    <div class="big-card__photo">
-        <img
-         src="https://www.zup.com.br/wp-content/uploads/2021/03/5e32dc5538c14b0d4b28f87f_imagens-angular3-1024x677.png"
-         alt=""
-         height="200px"         
-         srcset=""
-        >
-    </div>
-    <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
-    </div>
-    <div class="big-card__description">
-        <p> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Morbi tellus sem, fringilla in ante dictum, facilisis consectetur
-            lorem. Cras volutpat sit amet enim non semper. In consequat metus
-            in felis lobortis, eget porttitor dui molestie. Duis consectetur
-            luctus nunc eget vestibulum. In et nulla vestibulum, ultricies
-            nibh sit amet, blandit mi.
-        </p>       
-    </div>
+<div class="container__big-card">    
+        <div class="big-card__photo">
+            <a href="{{ photoZoom }}" target="_blank">
+                <img 
+                src="{{ photoCover }}"
+                alt=""
+                height="200px"         
+                srcset=""
+                >
+            </a>            
+        </div>
+        <div class="big-card__title">
+            <h1><a href="{{ cardLink }}" target="_blank">{{ cardTitle }}</a></h1>
+        </div>
+        <div class="big-card__description">
+            <p><a href="{{ cardLink }}" target="_blank">{{ cardDescription }}</a></p>       
+        </div>   
 </div>
